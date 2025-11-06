@@ -1,5 +1,36 @@
 {
-  "title": "RadioFanat News",
-  "updated": "2025-11-06T21:00:00+02:00",
-  "items": []
+  "title": "Новости электроники — RadioFanat",
+  "updated": "2025-11-06T22:00:00+02:00",
+  "items": [
+    {
+      "title": "LG Electronics и Pasqal объявили стратегическое партнёрство в области квантовых вычислений",
+      "link": "https://thequantuminsider.com/2025/11/06/pasqal-and-lg-electronics-forge-strategic-partnership-to-advance-quantum-innovation-and-industrial-applications/",
+      "description": "Французская компания Pasqal и корейская LG Electronics подписали соглашение о стратегическом сотрудничестве, направленное на развитие промышленных приложений квантовых технологий.",
+      "date": "2025-11-06"
+    },
+    {
+      "title": "Fairphone выходит на рынок США с модульными наушниками и планами на смартфон",
+      "link": "https://www.reuters.com/business/retail-consumer/europes-fairphone-enters-us-market-tapping-right-to-repair-demand-2025-11-05/",
+      "description": "Голландская компания Fairphone, известная своими ремонтопригодными и экологичными смартфонами, впервые выходит на рынок США, предлагая модульные наушники и готовясь запустить свой телефон.",
+      "date": "2025-11-05"
+    },
+    {
+      "title": "MIT сообщает о новых доказательствах сверхпроводимости в трёхслойном графене",
+      "link": "https://www.eurekalert.org/news-releases/1104409",
+      "description": "Учёные Массачусетского технологического института подтвердили существование сверхпроводимости в трёхслойном графене при определённых углах поворота слоёв, открывая новые возможности для наноэлектроники.",
+      "date": "2025-11-06"
+    },
+    {
+      "title": "STMicroelectronics представила новый энергоэффективный микроконтроллер STM32U5",
+      "link": "https://www.st.com/en/microcontrollers-microprocessors/stm32u5-series.html",
+      "description": "Компания STMicroelectronics выпустила серию микроконтроллеров STM32U5 с повышенной энергоэффективностью и встроенными средствами безопасности, предназначенную для портативных и IoT-устройств.",
+      "date": "2025-11-06"
+    },
+    {
+      "title": "Raspberry Pi OS получил обновление с поддержкой Python 3.13 и улучшенной производительностью",
+      "link": "https://www.raspberrypi.com/news/raspberry-pi-os-november-2025-update/",
+      "description": "Обновлённая версия Raspberry Pi OS включает Python 3.13, улучшения драйверов и оптимизацию под Raspberry Pi 5, что делает систему стабильнее и быстрее.",
+      "date": "2025-11-06"
+    }
+  ]
 }
