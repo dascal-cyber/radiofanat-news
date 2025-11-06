@@ -1,35 +1,33 @@
 {
   "title": "Новости электроники — RadioFanat",
-  "updated": "2025-11-06T22:00:00+02:00",
+  "updated": "2025-11-06T23:00:00+02:00",
   "items": [
     {
-      "title": "LG Electronics и Pasqal объявили стратегическое партнёрство в области квантовых вычислений",
+      "title": "LG и Pasqal заключили партнёрство в области квантовых вычислений",
       "link": "https://thequantuminsider.com/2025/11/06/pasqal-and-lg-electronics-forge-strategic-partnership-to-advance-quantum-innovation-and-industrial-applications/",
-      "description": "Французская компания Pasqal и корейская LG Electronics подписали соглашение о стратегическом сотрудничестве, направленное на развитие промышленных приложений квантовых технологий.",
+      "image": "https://cdn.thequantuminsider.com/wp-content/uploads/2025/11/pasqal-lg-quantum.jpg",
+      "description": "LG Electronics и французская компания Pasqal подписали стратегическое соглашение о сотрудничестве в сфере квантовых технологий.",
       "date": "2025-11-06"
     },
     {
-      "title": "Fairphone выходит на рынок США с модульными наушниками и планами на смартфон",
+      "title": "Fairphone выходит на рынок США с экологичными устройствами",
       "link": "https://www.reuters.com/business/retail-consumer/europes-fairphone-enters-us-market-tapping-right-to-repair-demand-2025-11-05/",
-      "description": "Голландская компания Fairphone, известная своими ремонтопригодными и экологичными смартфонами, впервые выходит на рынок США, предлагая модульные наушники и готовясь запустить свой телефон.",
-      "date": "2025-11-05"
-    },
-    {
-      "title": "MIT сообщает о новых доказательствах сверхпроводимости в трёхслойном графене",
-      "link": "https://www.eurekalert.org/news-releases/1104409",
-      "description": "Учёные Массачусетского технологического института подтвердили существование сверхпроводимости в трёхслойном графене при определённых углах поворота слоёв, открывая новые возможности для наноэлектроники.",
+      "image": "https://www.reuters.com/resizer/fairphone.jpg",
+      "description": "Голландский производитель ремонтопригодных смартфонов и наушников Fairphone официально запускает продажи в США.",
       "date": "2025-11-06"
     },
     {
-      "title": "STMicroelectronics представила новый энергоэффективный микроконтроллер STM32U5",
+      "title": "STMicroelectronics представила новую линейку STM32U5",
       "link": "https://www.st.com/en/microcontrollers-microprocessors/stm32u5-series.html",
-      "description": "Компания STMicroelectronics выпустила серию микроконтроллеров STM32U5 с повышенной энергоэффективностью и встроенными средствами безопасности, предназначенную для портативных и IoT-устройств.",
+      "image": "https://www.st.com/bin/ecommerce/api/image/products/LARGE/STM32U5.jpg",
+      "description": "STMicroelectronics выпустила энергоэффективные микроконтроллеры STM32U5 с улучшенной безопасностью и производительностью.",
       "date": "2025-11-06"
     },
     {
-      "title": "Raspberry Pi OS получил обновление с поддержкой Python 3.13 и улучшенной производительностью",
+      "title": "Raspberry Pi OS получила обновление с Python 3.13",
       "link": "https://www.raspberrypi.com/news/raspberry-pi-os-november-2025-update/",
-      "description": "Обновлённая версия Raspberry Pi OS включает Python 3.13, улучшения драйверов и оптимизацию под Raspberry Pi 5, что делает систему стабильнее и быстрее.",
+      "image": "https://www.raspberrypi.com/app/uploads/2025/11/pi-os-update.jpg",
+      "description": "В обновлённой Raspberry Pi OS добавлена поддержка Python 3.13 и оптимизация под Raspberry Pi 5.",
       "date": "2025-11-06"
     }
   ]
