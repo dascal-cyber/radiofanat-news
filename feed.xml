@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Новости электроники — RadioFanat</title>
+  <link>https://dascal-cyber.github.io/radiofanat-news/</link>
+  <description>Ежедневные новости электроники и технологий</description>
+  <language>ru</language>
+  <lastBuildDate>Thu, 06 Nov 2025 23:00:00 +0200</lastBuildDate>
+
+  <item>
+    <title>LG и Pasqal заключили партнёрство в области квантовых вычислений</title>
+    <link>https://thequantuminsider.com/2025/11/06/pasqal-and-lg-electronics-forge-strategic-partnership-to-advance-quantum-innovation-and-industrial-applications/</link>
+    <description><![CDATA[LG Electronics и французская компания Pasqal подписали стратегическое соглашение о сотрудничестве в сфере квантовых технологий.]]></description>
+    <pubDate>Thu, 06 Nov 2025 22:00:00 +0200</pubDate>
+  </item>
+
+  <item>
+    <title>STMicroelectronics представила STM32U5</title>
+    <link>https://www.st.com/en/microcontrollers-microprocessors/stm32u5-series.html</link>
+    <description><![CDATA[STMicroelectronics выпустила энергоэффективные микроконтроллеры STM32U5 с улучшенной безопасностью и производительностью.]]></description>
+    <pubDate>Thu, 06 Nov 2025 22:00:00 +0200</pubDate>
+  </item>
+</channel>
+</rss>
