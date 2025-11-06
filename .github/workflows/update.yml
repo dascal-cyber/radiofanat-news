@@ -1,0 +1,40 @@
+name: Update Feed
+
+on:
+  schedule:
+    - cron: '0 */3 * * *' # каждые 3 часа
+  workflow_dispatch:
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch latest news
+        run: |
+          curl -s "https://newsapi.org/v2/everything?q=electronics%20technology&language=en&sortBy=publishedAt&pageSize=5&apiKey=2029b183417041b4a09dcb8b675a0acc" > news.json
+          python3 - <<'PYCODE'
+import json, datetime, requests, os
+data = json.load(open("news.json", "r", encoding="utf-8"))
+feed = {"title": "Новости электроники — RadioFanat", "updated": datetime.datetime.now().isoformat(), "items": []}
+for a in data.get("articles", []):
+    item = {
+        "title": a["title"],
+        "link": a["url"],
+        "description": a["description"] or "",
+        "date": a["publishedAt"][:10]
+    }
+    feed["items"].append(item)
+with open("feed.json", "w", encoding="utf-8") as f:
+    json.dump(feed, f, ensure_ascii=False, indent=2)
+PYCODE
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "newsgpt"
+          git config --global user.email "news@radiofanat.ru"
+          git add feed.json
+          git commit -m "Автообновление новостей" || echo "No changes"
+          git push
